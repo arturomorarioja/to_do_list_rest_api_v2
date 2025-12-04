@@ -1,0 +1,11 @@
+services:
+  todos_api:
+    build: .
+    container_name: todos_api
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: development
+    # Uncomment this if you want live code editing from the host
+    # volumes:
+    #   - .:/app
