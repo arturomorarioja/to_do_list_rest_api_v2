@@ -12,8 +12,8 @@ Version 2 includes pagination.
 |Method|Endpoint|Body params|
 |-|-|-|
 |GET|/todos||
-|GET|/todos&offset=<start_item>||
-|GET|/todos&size=<items_per_page>||
+|GET|/todos?offset=<start_item>||
+|GET|/todos?size=<items_per_page>||
 |GET|/todos/:id||
 |POST|/todos|id, task, done|
 |PUT|/todos/:id|task, done|
